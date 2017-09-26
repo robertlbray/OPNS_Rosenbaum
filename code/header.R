@@ -9,3 +9,5 @@ dir('modules') %>%
   walk(~source(paste('./modules/', ., sep="")))
 
 var_save <- '../variables/'
+
+registerDoParallel(cores=28)

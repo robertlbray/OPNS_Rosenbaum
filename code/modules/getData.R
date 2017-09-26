@@ -17,5 +17,6 @@ make_data <- function(assembly.count, competetor.count, distance, union){
   ) %>%
     saveRDS(paste0(var_save, 'costParameters.rds'))
   
-  saveRDS(function(x, y) (x-1/2)^2+(y/4)^2, paste0(var_save, 'unionizationRate.rds'))
+  {function(x, y) (x-1/2)^2+(y/4)^2} %>% 
+    saveRDS(paste0(var_save, 'unionizationRate.rds'))
 }
