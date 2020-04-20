@@ -1,4 +1,4 @@
-make_data <- function(problem.param){
+make_problem_data <- function(problem.param){
   set.seed(1)
   
   problem.param %>% {

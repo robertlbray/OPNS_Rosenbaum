@@ -2,7 +2,7 @@ my.library <- '/Users/robertlbray/Dropbox/code/R/library'
 .libPaths(my.library)
 
 library('tidyverse')
-c('reshape2', 'stringr', 'magrittr', 'plyr', 'doParallel') %>%
+c('reshape2', 'stringr', 'magrittr', 'doParallel') %>%
   walk(~library(., character.only=TRUE))
 
 dir('modules') %>% 
