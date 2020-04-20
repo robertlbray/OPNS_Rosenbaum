@@ -8,11 +8,10 @@ list(
   assembly.count = 12,
   competetor.count = 4,
   distance = 10,
-  union = 2
+  union = 2,
+  num.sites = 6,
+  num.tries = 12
 ) %>% 
-  make_data %>% 
-  find_best_location(
-    num.sites = 6,
-    num.tries = 12
-  ) %>% 
+  make_problem_data %>% 
+  find_best_location %>% 
   saveRDS(paste0(var_save, 'solution.rds'))

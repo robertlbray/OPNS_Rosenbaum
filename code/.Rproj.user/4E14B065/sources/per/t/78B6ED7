@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1587402098320.000,
+    "created" : 1506302074791.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "3921777183",
-    "id" : "41B83318",
+    "id" : "78B6ED7",
     "lastKnownWriteTime" : 1587402165,
-    "last_content_update" : 1587402165673,
+    "last_content_update" : 1587402165,
     "path" : "~/Dropbox/teaching/OPNS523/assignments/OPNS_Rosenbaum2014/github/code/header.R",
     "project_path" : "header.R",
     "properties" : {
-        "cursorPosition" : "13,0",
+        "cursorPosition" : "0,0",
         "scrollLine" : "0"
     },
     "relative_order" : 4,
