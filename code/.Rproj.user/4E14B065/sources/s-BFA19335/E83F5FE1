@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587401995468.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E83F5FE1",
+    "lastKnownWriteTime" : 1587402669,
+    "last_content_update" : 1587402669366,
+    "path" : "~/Dropbox/teaching/OPNS523/assignments/OPNS_Rosenbaum2014/github/code/modules/getData.R",
+    "project_path" : "modules/getData.R",
+    "properties" : {
+        "cursorPosition" : "13,10",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
