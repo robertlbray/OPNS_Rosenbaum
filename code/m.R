@@ -1,17 +1,17 @@
-#Coding assignment based on the counterfactual analysis of Rosenbaum (2013):
-#Construct the findBestLocation() function, which identifies the optimal foreign-owned supplier locations, given the location of the domestic-owned suppliers. 
-#Let the expected cost of a supplier satesfying an assembly plant be a linear function of the union rate and the distance between the supplier and assembly plant. beta gives these multiplicative constants.
+# Coding assignment based on Rosenbaum (2013)
 
 source('header.R')
 
+set.seed(1)
+
 list(
-  assembly.count = 12,
-  competetor.count = 4,
-  distance = 10,
-  union = 2,
-  num.sites = 6,
-  num.tries = 12
+  assembly.count = 12, #number of assembly plants
+  competetor.firm.count = 3, #number of competing suppliers
+  competetor.factory.count = 12, #number of factories owned by these suppliers
+  distance = 10, #distance cost parameter
+  union = 2, #union cost parameter
+  num.sites = 4, #number of factory locations we must choose
+  lambda.value = 2 #lambda parameter (see page 8)
 ) %>% 
   make_problem_data %>% 
-  find_best_location %>% 
-  saveRDS(paste0(var_save, 'solution.rds'))
+  find_best_location
